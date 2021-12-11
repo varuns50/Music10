@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Cake.Http</id>
+    <version>0.7.0</version>
+    <title>Cake.Http</title>
+    <authors>louisfischer</authors>
+    <owners>louisfischer,cake-contrib</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/cake-contrib/Cake.Http</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/cake-contrib-medium.png</iconUrl>
+    <description>HttpClient addin for cake build.</description>
+    <summary>HttpClient addin for cake build.</summary>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright (c) Cake Contributions Organization 2017</copyright>
+    <tags>cake script build httpclient web</tags>
+    <repository type="git" url="https://github.com/cake-contrib/Cake.Http.git" />
+  </metadata>
+</package>

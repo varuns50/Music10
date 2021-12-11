@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Cake.Sitecore</id>
+    <version>1.0.27</version>
+    <title>Cake.Sitecore</title>
+    <authors>Alex Smagin</authors>
+    <owners>Alex Smagin</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/asmagin/Cake.Sitecore/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/asmagin/Cake.Sitecore</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics/png/recipe/cake-contrib-recipe-medium.png</iconUrl>
+    <description>My package description.</description>
+    <summary>A set of Cake scripts and tools to compile and deploy Sitecore Helix projects.</summary>
+    <tags>cake-recipe, sitecore, cake, build, helix, powershell, docker, scs</tags>
+  </metadata>
+</package>

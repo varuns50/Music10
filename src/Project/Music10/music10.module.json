@@ -1,0 +1,31 @@
+{
+    "namespace": "Project.Music10",
+    "items": {
+        "includes": [
+            {
+                "name": "layouts",
+                "path": "/sitecore/layout/Layouts/Project/Music10"
+            },
+            {
+                "name": "placeholders",
+                "path": "/sitecore/layout/Placeholder Settings/Project/Music10"
+            },
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/Music10"
+            },
+            {
+                "name": "branches",
+                "path": "/sitecore/templates/Branches/Project/Music10"
+            },
+            {
+                "name": "site-root-rule",
+                "path": "/sitecore/system/Settings/Rules/Insert Options/Rules/Music10 Site Root"
+            },
+            {
+                "name": "api-key",
+                "path": "/sitecore/system/Settings/Services/API Keys/music10"
+            }
+        ]
+    }
+}

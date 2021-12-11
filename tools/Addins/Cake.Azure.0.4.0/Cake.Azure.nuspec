@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Cake.Azure</id>
+    <version>0.4.0</version>
+    <authors>Zachary L. Beer,Dmytro Dziuma,cake-contrib</authors>
+    <owners>Zachary L. Beer,Dmytro Dziuma,cake-contrib</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/cake-contrib/Cake.Azure</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/cake-contrib/graphics@49c3b71def749b86416d773f1ead0c0da2d590ea/png/cake-contrib-medium.png</iconUrl>
+    <description>Cake addin for Azure management.</description>
+    <releaseNotes>Updated to .NET Standard 2.0 and Cake.Core 0.35.0</releaseNotes>
+    <tags>Cake Script Azure</tags>
+    <repository type="git" url="https://github.com/cake-contrib/Cake.Azure.git" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Azure.Management.ResourceManager" version="2.4.5-preview" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Rest.ClientRuntime" version="2.3.21" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Rest.ClientRuntime.Azure.Authentication" version="2.4.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
